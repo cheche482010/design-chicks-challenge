@@ -1,0 +1,86 @@
+
+
+.navbar {
+  background-color: #38394d;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 255, 0.2);
+}
+
+.dropdown {
+  position: relative;
+  color: white;
+  cursor: pointer;
+   margin-right: 10px;
+}
+
+.dropdown span {
+  padding: 10px;
+  display: inline-block;
+}
+
+.dropdown-content {
+  width: 100%;
+  text-align: center;
+  display: none;
+  position: absolute;
+  background-color: #38394d;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 10px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.currency-select {
+  background-color: #38394d;
+  color: white;
+  padding: 5px;
+  border: none;
+  margin-right: 20px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.buy-btn, .sign-in-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.buy-btn i, .sign-in-btn i {
+  margin-right: 5px;
+}
+
+.sign-in-btn {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #43cd99;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.logo {
+  display: flex;
+  border-right: 1px solid white;
+   margin-right: 20px; 
+  padding-right: 20px; 
+}
+
+.logo img {
+  margin-top: -10px;
+  height: 30px; 
+  margin-right: 10px; 
+}
+

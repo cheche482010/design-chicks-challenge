@@ -1,0 +1,137 @@
+.game {
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 0 0 5px #ddd;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgba(76,96,133,.15) 0 0 no-repeat padding-box;
+}
+
+.div-game {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.game input[type="number"] {
+  width: 32px;
+  background-color: #484b64;
+  text-align: left;
+  color: #fff;
+  border: none;
+  border-spacing: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.stock {
+  border: 1px solid #28a745;
+  color: #28a745;
+  width: 70px;
+  height: auto;
+  text-align: center;
+}
+
+
+.game-description {
+  color: white;
+  text-align: left;
+  width: 185px;
+  height: 100px;
+}
+
+.game img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.game h3 {
+  margin: 5px 0;
+  font-size: 18px;
+  text-align: left;
+  flex: 1;
+  margin-right: 50px;
+}
+
+.game p {
+  margin: 10px;
+  font-size: 14px;
+}
+
+.game a {
+  text-decoration: none;
+  color: #333;
+}
+
+.game a:hover {
+  text-decoration: underline;
+}
+
+.buttons {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.buy {
+  display: flex;
+  align-items: center;
+  background-color: #6e79e6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.buy-car {
+  margin-left: 10px;
+  background-color: #5762d5;
+  padding: 5px;
+  border-radius: 5px;
+}
+.details {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.details:hover {
+  background-color: #5a6268;
+}
+
+.prices-bad {
+  margin-left: 10px;
+  text-decoration: line-through;
+  text-decoration-color: red;
+  text-decoration-thickness: 2px;
+}
+
+.sale-status {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #00ff00; 
+  border-radius: 50%;
+  margin-right: 10px;
+}
