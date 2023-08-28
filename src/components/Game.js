@@ -13,7 +13,7 @@ const Game = ({ imageUrl, title, price, description,oldprice }) => {
         <input type="number" name="" id="" min="1" max="valor_maximo" step="1" value="1" />
       </div>
       <p className="stock">In stock</p>
-      <div className="image-container-game">
+      <div className="image-container-game"> 
         <img alt={title} src={imageUrl} />
       </div>
       <div className="game-description">
